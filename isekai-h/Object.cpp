@@ -12,22 +12,22 @@ Object::Object(){
 
 Object::Object(double x,double y){
 	Object();
-	Object.x=x;
-	Object.y=y;
+	this->x=x;
+	this->y=y;
 }
 
 Object::Object(double x,double y,double v){
 	Object();
-	Object.x=x;
-	Object.y=y;
-	Object.v=v;
+	this->x=x;
+	this->y=y;
+	this->v=v;
 }
 
 Object::Object(double x,double y,int count){
 	Object();
-	Object.x=x;
-	Object.y=y;
-	Object.count=count;
+	this->x=x;
+	this->y=y;
+	this->count=count;
 }
 
 //関数
@@ -46,6 +46,10 @@ double Object::getV(){
 
 //位置更新用
 void Object::updateXY(double x,double y){
-	Object.x=x;
-	Object.y=y;
+	this->x=x;
+	this->y=y;
+}
+
+void Object::setV(double v){
+	this->v=v;
 }

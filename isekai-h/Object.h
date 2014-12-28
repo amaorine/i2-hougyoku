@@ -20,4 +20,5 @@ public:
 	double getV();
 	//ˆÊ’uXVŠÖ”
 	void updateXY(double x,double y);
+	void setV(double v);
 };

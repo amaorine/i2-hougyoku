@@ -18,7 +18,8 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,i
 	int page = 0;
 
 	//初期化処理
-	playerInitilaze();	//プレイヤー初期化
+	//playerInitilaze();	//プレイヤー初期化
+	Player player(100.0,100.0,3.0);
 	bossInitialize();	//ボス初期化
 	shotInitialize();	//ボス初期化
 
@@ -38,8 +39,8 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,i
 
 
 
-
-		playerMain();
+		//ほぼ毎回処理
+		player.main();
 		shotMove();
 		shotGraph();
 		deleteBullet();

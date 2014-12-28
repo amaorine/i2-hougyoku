@@ -16,7 +16,8 @@
     <ClCompile Include="field.cpp" />
     <ClCompile Include="key.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="player.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="shot.cpp" />
     <ClCompile Include="value.cpp" />
   </ItemGroup>
@@ -26,7 +27,8 @@
     <ClInclude Include="field.h" />
     <ClInclude Include="include.h" />
     <ClInclude Include="key.h" />
-    <ClInclude Include="player.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="shot.h" />
     <ClInclude Include="value.h" />
   </ItemGroup>
