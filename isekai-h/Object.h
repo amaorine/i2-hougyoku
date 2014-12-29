@@ -5,6 +5,7 @@
 
 class Object
 {
+protected:
 	double x,y,v;	//自身の現在x,y位置と速度
 	int flag,count;	//判定フラグと行動パターン用のカウンタ。絵の切り替えとかにも使う。
 public:
@@ -21,4 +22,5 @@ public:
 	//位置更新関数
 	void updateXY(double x,double y);
 	void setV(double v);
+	//描画
 };

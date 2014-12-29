@@ -11,7 +11,7 @@ Player::Player():Object(){
 }
 
 Player::Player(double x,double y,double v):Object(x,y){
-	Object::setV(v);
+	this->v=v;
 	
 	LoadDivGraph( "../dat/img/char/player.png" ,12 , 4 , 3 , 73 , 73 ,playerImg) ;
 }
@@ -42,15 +42,15 @@ void Player::move(){
 				vRateX[i]/=3;
 				vRateY[i]/=3;
 			}
-			Object::updateXY(Object::getX()+Object::getV()/vRateSlant*vRateX[i],Object::getY()+Object::getV()/vRateSlant*vRateY[i]);
+			Object::updateXY(this->x+this->v/vRateSlant*vRateX[i],this->y+this->v/vRateSlant*vRateY[i]);
 
-			if(Object::getX()>xMoveMax[0]||Object::getX()<xMoveMax[1]){
+			if(this->x>xMoveMax[0]||this->x<xMoveMax[1]){
 				//左右に動くのはi=1とi=3の時なので、i/2
-				Object::updateXY(xMoveMax[int(i/2)],Object::getY());
+				this->x=xMoveMax[int(i/2)];
 			}
-			if(Object::getY()>yMoveMax[1]||Object::getY()<yMoveMax[0]){
+			if(this->y>yMoveMax[1]||this->y<yMoveMax[0]){
 				//左右に動くのはi=1とi=3の時なので、i/2
-				Object::updateXY(Object::getX(),yMoveMax[int(i/2)]);
+				this->y=yMoveMax[int(i/2)];
 			}			
 		}
 	}
@@ -59,7 +59,7 @@ void Player::move(){
 void Player::graph(){
 	//描画処理
 	//自機を自機座標を中心に描画
-	DrawRotaGraphF(Object::getX(),Object::getY(),1.0f,0.0f,playerImg[0],TRUE);
+	DrawRotaGraphF(this->x,this->y,1.0f,0.0f,playerImg[0],TRUE);
 }
 
 void Player::main(){

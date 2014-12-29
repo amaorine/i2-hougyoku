@@ -19,6 +19,7 @@ void bossMove(){
 		boss.x+=(boss.pointX-boss.x)/(boss.moveTime-boss.moveCount);
 		boss.y+=(boss.pointY-boss.y)/(boss.moveTime-boss.moveCount);
 		boss.moveCount++;
+
 	}
 		DrawFormatString(50,50,GetColor(255, 255, 255),"moveCount:%d",boss.moveCount);
 		DrawFormatString(50,70,GetColor(255, 255, 255),"moveTime:%d",boss.moveTime);

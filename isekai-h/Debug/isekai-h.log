@@ -1,20 +1,27 @@
-﻿2014/12/28 21:21:24 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\isekai-h\isekai-h.vcxproj" (build ターゲット)。
+﻿2014/12/30 1:03:28 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\isekai-h\isekai-h.vcxproj" (build ターゲット)。
      1>InitializeBuildStatus:
-         "AlwaysCreate" が指定されたため "Debug\isekai-h.unsuccessfulbuild" を作成しています。
+         "Debug\isekai-h.unsuccessfulbuild" のタッチ タスクを実行しています。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Object.cpp Player.cpp field.cpp main.cpp
+         Player.cpp
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\player.cpp(1): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\player.h(2): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\player.cpp(2): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\player.cpp(3): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\player.cpp(4): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\player.cpp(5): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\player.cpp(62): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\player.cpp(62): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         Object.cpp
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\object.cpp(1): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+     1>c:\users\c0112548d8\documents\github\i2-hougyoku\isekai-h\object.cpp(2): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+         コードを生成中...
+         スキップ中... (関連する変更は検出されませんでした)
          main.cpp
-     1>c:\users\c0112548d8\google ドライブ\i2-hougyoku\isekai-h\include.h(2): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
-     1>c:\users\c0112548d8\google ドライブ\i2-hougyoku\isekai-h\include.h(3): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
-     1>c:\users\c0112548d8\google ドライブ\i2-hougyoku\isekai-h\include.h(4): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
-     1>c:\users\c0112548d8\google ドライブ\i2-hougyoku\isekai-h\include.h(5): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
-     1>c:\users\c0112548d8\google ドライブ\i2-hougyoku\isekai-h\player.h(2): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
-     1>c:\users\c0112548d8\google ドライブ\i2-hougyoku\isekai-h\include.h(6): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
-     1>c:\users\c0112548d8\google ドライブ\i2-hougyoku\isekai-h\include.h(7): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
-     1>c:\users\c0112548d8\google ドライブ\i2-hougyoku\isekai-h\include.h(8): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+         field.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\isekai-h\Debug\isekai-h.exe" /NOLOGO /LIBPATH:"C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\include" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\isekai-h.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\isekai-h\Debug\isekai-h.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\isekai-h\Debug\isekai-h.lib" /MACHINE:X86 Debug\bossSpell.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\isekai-h\Debug\isekai-h.exe" /NOLOGO /LIBPATH:"C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\include" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\isekai-h.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\isekai-h\Debug\isekai-h.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\isekai-h\Debug\isekai-h.lib" /MACHINE:X86 Debug\bossSpell.obj
          Debug\boss.obj
          Debug\field.obj
          Debug\key.obj
@@ -23,15 +30,14 @@
          Debug\Player.obj
          Debug\shot.obj
          Debug\value.obj
-         LINK : 前回のインクリメンタル リンクで C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\isekai-h\Debug\isekai-h.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
-         isekai-h.vcxproj -> C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\isekai-h\Debug\isekai-h.exe
+         isekai-h.vcxproj -> C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\isekai-h\Debug\isekai-h.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\isekai-h\Debug\isekai-h.exe;#1" /manifest "Debug\isekai-h.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\isekai-h\Debug\isekai-h.exe;#1" /manifest "Debug\isekai-h.exe.intermediate.manifest"
        FinalizeBuildStatus:
          ファイル "Debug\isekai-h.unsuccessfulbuild" を削除しています。
          "Debug\isekai-h.lastbuildstate" のタッチ タスクを実行しています。
-     1>プロジェクト "C:\Users\c0112548d8\Google ドライブ\i2-hougyoku\isekai-h\isekai-h.vcxproj" (build ターゲット) のビルドが完了しました。
+     1>プロジェクト "C:\Users\c0112548d8\Documents\GitHub\i2-hougyoku\isekai-h\isekai-h.vcxproj" (build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:03.30
+経過時間 00:00:03.06
